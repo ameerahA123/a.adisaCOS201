@@ -1,6 +1,7 @@
 #include <iostream>
 
 using namespace std;
+const float PI = 3.14159;
 
 int main(){
 	//cout<<"This is my first C++ class \n";
@@ -19,6 +20,8 @@ int main(){
 	double r;
 	cin>> r;
 	double pi = 3.142;
-    double area = pi * r * r;
+    double area = PI * r * r;
 	cout<<area;
+	
+	
 }
