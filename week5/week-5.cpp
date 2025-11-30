@@ -58,8 +58,8 @@ int main(){
 	int sum=0;
 	for (i=1;i<6;i++){
 		for (j=2;j<4;j++){
-		     //sum = sum + i + j;
-			 //cout<<sum;	
+		     sum = sum + i + j;
+			 cout<<sum;	
 		}
 	}
 	
